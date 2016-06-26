@@ -1,0 +1,191 @@
+
+body,
+html,
+a {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family:arial;
+	font-size:13px;
+}
+
+
+#topnav {
+	position: fixed;
+	width:100%;
+	height:10%;
+	top: 0px;
+
+}
+
+#toplinks {
+	margin:0;
+	padding-right: 30px;
+	padding-top: 8px;
+	float:right;
+	text-align: center;
+	line-height:44px;
+
+
+}
+
+#plusprofile {
+	background-color:#4386f9;
+	border: none;
+	border-radius: 2px;
+	color:#ffffff;
+	display:inline-block;
+	font-weight: 700;
+	font-size: 1em;
+	vertical-align: middle;
+	height:30px;
+	width:78px;
+	
+}
+
+#plusprofile:active {
+background-color:#3e77d5;
+}
+
+#plusprofile:hover {
+	box-shadow: 0 0.08em #4386f9;
+}
+
+li {
+	display:inline;
+	list-style: none;
+	padding-right: 8px;
+	font-size:14px;
+	font-weight:400;
+}
+
+a {
+	text-decoration:none;
+	color: #404040;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#262626;
+}
+
+#googlogo {
+	display: block;
+	width:280px;
+	height:90px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#mainlogo {
+	
+	position: relative;
+	margin-top:18%;
+	padding-bottom: 25px;
+}
+
+#search {
+	display:inline-block;
+	width:100%;
+	height:auto;
+	align-items:center;
+	justify-content:center;
+}
+
+#searchbtn,
+#lucky {
+	height:35px;
+	width: 125px;
+	background-color: #f6f6f6;
+	font-weight:600;
+	font-size: 1em;
+	color:#757575;
+	width:150px;
+	margin-right:3px;
+	margin-left:3px;
+	margin-top:20px;
+	border: 1px;
+	border-radius: 2px;
+}
+
+#searchbtn:hover,
+#lucky:hover {
+	color:#222222;
+	border: solid 1px #c6c6c6;
+	border-radius: 2px;
+
+}
+
+#txtbox {
+	width:570px;
+	height: 36px;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	border:solid 1px #d9d9d9;
+	font-size: 16px;
+}
+
+#txtbox:focus{
+	border-color:#4d90fe;
+	box-shadow:none;
+	outline: none;
+}
+
+#bottomnav{
+	background-color:#e9e9e9;
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	position:fixed;
+	bottom:0;
+}
+
+span {
+	display:inline-block;
+	position:relative;
+}
+#right{
+	float:right;
+}
+#left{
+	float:left;
+}
+#right a {
+	padding-right:30px;
+}
+#left a {
+	padding-left:30px;
+}
+
+.material-icons {
+  color:#737373;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons:hover {
+	color:#262626 !important;
+}
