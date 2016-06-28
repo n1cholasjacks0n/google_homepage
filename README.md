@@ -14,10 +14,10 @@ of functionality of the buttons, such as the 'apps' icon on the top navigation b
 javascript which I would need to cause the dropdown menus those buttons deploy on the native site display. That 
 will be a project for the future.
 
-    I found the exercise to be entertaining, though at times frustrating. It has been interesting to see how I have 
+   I found the exercise to be entertaining, though at times frustrating. It has been interesting to see how I have 
 come along with being able to produce webpages over the last month-and-a-half of learning html and css. 
 
-    On to the next project!
+   On to the next project!
 
 
 
